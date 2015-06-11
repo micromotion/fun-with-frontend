@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>Gesällprovet</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="scripts2.js"></script>
+</head>
+<body>
+
+<header>
+	<h1>Quizinator</h1>
+	<ul class="nav">
+		<li><a href="home.html">Home</a></li>
+		<li><a class="active" href="quiz.html">Quiz</a></li>
+		<li><a href="#" id="highscore">Highscore</a></li>
+	</ul>
+</header>
+	
+
+
+<div id="questionBox">
+	<h1 id="question"></h1>
+	<form id="questionForm">
+		<input id="answer">
+		<button id="answerButton">Answer</button>
+		<button id="restartButton">Restart</button>
+	</form>
+</div>
+
+<div id="facit"></div>
+
+<div id="myScore">
+	<p>Hello <span id="user"></span>! This is your score from current games. Highest score first.</p>
+	<div id="showScore"></div>
+</div>
+
+
+</body>
+</html>
